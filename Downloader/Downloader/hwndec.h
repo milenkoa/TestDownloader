@@ -1,0 +1,42 @@
+
+
+HWND hBTNAddLink;
+#define BUTTON_ADD_LINK 40000
+
+HWND hBTNAddBulk;
+#define BUTTON_ADD_BULK 40001
+
+HWND hBTNMaxParall;
+#define BUTTON_MAX_PARALL 40002
+
+HWND hBTNStart;
+#define BUTTON_START 40003
+
+HWND hBTNPause;
+#define BUTTON_PAUSE 40004
+
+HWND hBTNStop;
+#define BUTTON_STOP 40004
+
+HWND hInput;
+
+HWND hMaxParall;
+
+HWND hOutput;
+#define WND_OUTPUT 40050
+
+HWND hChkboxAll;
+#define IDC_CHECKBOX_ALL 40101
+HWND hChkboxFailed;
+#define IDC_CHECKBOX_FAILED 40102
+HWND hChkboxOK;
+#define IDC_CHECKBOX_OK 40103
+HWND hChkboxDownloading;
+#define IDC_CHECKBOX_DOWNLOADING 40104
+HWND hChkboxWaiting;
+#define IDC_CHECKBOX_WAITING 40105
+
+#define WM_UPDATE_OUTPUT (WM_APP + 0x0001)
+#define WM_ERROR_OUTPUT (WM_APP + 0x0002)
+#define WM_AUTO_START (WM_APP + 0x0003)
+
